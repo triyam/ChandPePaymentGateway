@@ -1,0 +1,14 @@
+<div class="d-flex justify-content-center">
+	<form method="POST" action="/payment/order">
+		<div class="mb-3">
+			<img src="https://www.freeiconspng.com/thumbs/payment-icon/buy-gain-income-money-pay-payment-icon--19.png" height="150" style="display: block; margin-left: auto; margin-right: auto; width: 50%;" alt="">
+		  <label for="amountInput" class="form-label">Enter Amount</label>
+		  <input name="amount" type="number" min="1" class="form-control form-control-lg" id="amountInput" aria-describedby="amountHelp" required>
+		  <!-- <div id="amountHelp" class="form-text">Bhaiyon aur Beheno, ek rupaiya, sau rupaiya. Kuch bhi chalega.</div> -->
+		</div>
+
+		<div class="d-grid">
+			<button type="submit" class="btn btn-primary" id="getOrderIdBtn">Make Payment</button>
+		</div>
+	</form>
+</div>
